@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/PI-M4-HENRY-GALDEANO:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/pi-m4-henry-galdeano:latest
