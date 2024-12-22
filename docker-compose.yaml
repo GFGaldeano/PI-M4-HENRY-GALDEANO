@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   nestapp:
-    build: ./
+    image: gfgaldeano/pi-m4-henry-galdeano
     ports:
       - "3001:3000"
     env_file:
